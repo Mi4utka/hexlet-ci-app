@@ -12,7 +12,7 @@ jobs:
         name: snyk
       - uses: snyk/actions/node@master
         env:
-          SNYK_TOKEN: ${{ 3baf15ad-e28e-468d-ad2d-e20cf05250cc }}
+          SNYK_TOKEN: ${{ 16c4dabb-4dc4-4dba-bbd1-02efd53501d5 }}
         with:
           args: --severity-threshold=high
 
